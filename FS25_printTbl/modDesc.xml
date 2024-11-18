@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="90">
+    <author>Rockstar49</author>
+
+    <version>1.0.0.0</version>
+
+    <title>
+        <en>Print tbl</en>
+    </title>
+
+    <description>
+        <en><![CDATA[TODO...]]></en>
+        <de><![CDATA[TODO...]]></de>
+    </description>
+
+    <iconFilename>icon.dds</iconFilename>
+
+    <multiplayer supported="true"/>
+
+    <extraSourceFiles>
+        <sourceFile filename="printTbl.lua" />
+    </extraSourceFiles>
+</modDesc>
