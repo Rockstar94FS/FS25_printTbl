@@ -23,7 +23,7 @@ function printTbl:consoleCommandPrintTable(inputTable, depth, maxDepth)
 		loadstring(string.format("DebugUtil.printTableRecursively(%s, '-', %d ,%d)", inputTable, depth, maxDepth))()
 		print("===================================================")
 	else
-		return "Usage: _gsPrintTable <table>"
+		return "Usage: _gsPrintTable <table> <depth> <maxDepth>"
 	end
 end
 
